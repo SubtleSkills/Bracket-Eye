@@ -14,10 +14,20 @@
         android:layout_width="match_parent"
         android:orientation="vertical">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Results"
+            android:textSize="40dp"
+            android:textColor="@color/colorCard"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="40dp"/>
+
     <android.support.v7.widget.CardView
         android:layout_width="350dp"
         android:layout_height="200dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="5dp"
         android:layout_gravity="center_horizontal"
         card_view:cardCornerRadius="10dp"
@@ -142,7 +152,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Stockyard Two"
+                android:text="Stockyard One"
                 android:layout_gravity="center_horizontal"
                 android:textStyle="bold"
                 android:textColor="#ffffff"
@@ -231,7 +241,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Black"
+                            android:text="White"
                             android:textStyle="bold"
                             android:textSize="20sp"
                             android:textColor="#FFF"
@@ -257,7 +267,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Stockyard Three"
+                android:text="Stockyard One"
                 android:layout_gravity="center_horizontal"
                 android:textStyle="bold"
                 android:textColor="#ffffff"
@@ -300,7 +310,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="7"
+                            android:text="80"
                             android:textStyle="bold"
                             android:textSize="20sp"
                             android:textColor="#FFF"
@@ -323,7 +333,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Swift"
+                            android:text="Negative"
                             android:textStyle="bold"
                             android:textSize="20sp"
                             android:textColor="#FFF"
@@ -346,7 +356,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Black"
+                            android:text="Negative"
                             android:textStyle="bold"
                             android:textSize="20sp"
                             android:textColor="#FFF"
